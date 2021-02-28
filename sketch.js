@@ -10,13 +10,13 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(1200, 570);
 
 
 	engine = Engine.create();
 	world = engine.world;
 
-	ground = new Ground(200,20,2000,20);
+	ground = new Ground(200,530,2100,20);
 
 	Engine.run(engine);
   
