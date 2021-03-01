@@ -17,6 +17,7 @@ function setup() {
 	world = engine.world;
 
 	ground = new Ground(200,530,2100,20);
+	hammer = new Hammer(200,200,20,20)
 
 	Engine.run(engine);
   
@@ -28,6 +29,7 @@ function draw() {
   background(0);
 
   ground.display(); 
+  hammer.display();
   
   drawSprites();
  
