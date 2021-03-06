@@ -1,5 +1,5 @@
 class Rubber{
-    constructor(x,y,width,height){
+    constructor(x,y,radius){
     var options = {
     'density' : 1,
     'friction' : 5,
@@ -12,7 +12,6 @@ class Rubber{
     }   
     display(){
     var pos = this.body.position;
-    hammer.shapeColor="yellow";
     rectMode(CENTER);
     rect(pos.x,pos.y,this.width,this.height);  
     }
