@@ -6,8 +6,7 @@ class Rubber{
     'restitution' :0.3
     };
     this.body = Bodies.circle(x ,y ,radius);
-    this.width = width;
-    this.height = height;
+    this.radius = radius;
     World.add(world,this.body);
     }   
     display(){
