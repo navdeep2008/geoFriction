@@ -11,7 +11,7 @@ class Rubber{
     }   
     display(){
     var pos = this.body.position;
-    rectMode(CENTER);
-    rect(pos.x,pos.y,this.width,this.height);  
+    ellipseMode(CENTER);
+    ellipse(pos.x,pos.y,this.radius);  
     }
     }
